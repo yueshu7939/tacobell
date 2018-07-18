@@ -5,7 +5,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Lobster', cursive;
+    font-family: 'Merienda', cursive;
 }
 
 .full-bg {
@@ -52,7 +52,7 @@ body {
 .enter {
     background-color: #613287;
     border: none;
-    color: white;
+    color: #DAD9DB;
     font-weight: bolder;
     text-align: center;
     text-decoration: none;
@@ -85,3 +85,15 @@ body {
 a:link {
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 400px) {
+    .content {
+        width: 820px;
+    }
+    .enter {
+        font-size:35px;
+    }
+}
+
+
