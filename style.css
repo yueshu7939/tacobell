@@ -31,7 +31,7 @@ body {
     padding: 16px;
     box-sizing: border-box;
     margin: auto;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
 .content header h1 {
     color: #DAD9DB;
     font-size: 30px;
-    margin: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -51,8 +51,7 @@ body {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     display: inline-block;
-    margin-top: 10;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .enter {
@@ -79,8 +78,8 @@ body {
 .icon {
     color: #DAD9DB;
     padding: 20px;
-    font-size: 28px;
-    margin-top: 30px;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .content img {
@@ -98,10 +97,9 @@ a:visited {
 }
 
 
-
 @media (min-width: 400px) {
     .content {
-        width: 90%;
+        width: 80%;
         font-size: 38px;  
     }
     .content header h1 {
@@ -115,9 +113,42 @@ a:visited {
     }
 }
 
+@media (orientation:landscape) and (min-width: 400px) and (max-width: 999px) {
+     .content {
+        width: 60%;
+        font-size: 20px; 
+        padding: 10px;
+    }
+
+    .content header h1 {
+        font-size:25px;
+        margin:0px;
+    }
+    .content header h2 {
+        font-size:15px;
+    }
+    .enter {
+        font-size:15px;
+    }
+    .icon{
+        margin-top:4px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (orientation: landscape){
+    .content {
+        width:80%;
+    }
+    .icon {
+        font-size:60px;
+    }
+}
+
 @media (min-width: 1000px) {
     .content {
-        width: 70%;
+        width: 80%;
         font-size: 55px;  
     }
     .content header h1 {
@@ -128,12 +159,15 @@ a:visited {
         margin-bottom: 45px;
     }
     .enter {
-        font-size:40px;
+        font-size:45px;
     }
     .icon {
-        font-size:40px;
+        margin-top:40px;
+        font-size:50px;
     }
 }
+
+
 
 @media (min-width: 1100px){
     .content {
@@ -154,4 +188,7 @@ a:visited {
         font-size:25px;
     }
 }
+
+
+
 
